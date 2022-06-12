@@ -144,7 +144,7 @@ margin-right: 51px;
 .hero {
     text-align: center;
     background-color: var(--background-color);
-    height: 600px;
+    /* height: 600px; */
     max-width: 1600px;
     padding-bottom: 200px;
     margin-left: auto;
@@ -215,6 +215,7 @@ margin-right: 51px;
     cursor: pointer;
     text-align: center;
     border: none;
+    height: 38px;
 }
 
 .button.secondary:hover,
@@ -273,6 +274,10 @@ margin-right: 51px;
 
 /* our work */
 
+.image {
+    display: block;
+}
+
 .work-list {
     display: flex;
 }
@@ -318,10 +323,6 @@ margin-right: 51px;
     line-height: 1.19;
 }
 
-.team-image {
-    display: block;
-}
-
 .team-list .job {
     padding-bottom: 30px;
    
@@ -330,6 +331,10 @@ margin-right: 51px;
 }
 
 /* fotter contacts */
+
+.logo.logo-down {
+    margin-bottom: 50px;
+}
 
 .logo-down {
     color: var(--secondary-text-color);
@@ -374,16 +379,42 @@ margin-right: 51px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1600px;
-    /* height: 252px; */
-}
-
-.part-logo {
     padding-top: 60px;
 }
 
+.footer .list {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.item.footer-list:not(:last-child) {
+    margin-bottom: 9px;
+}
 
 
 /* portfolio list */
+
+.portfolio-category {
+    padding: 20px 24px;
+}
+
+.portfolio-category .title {
+    margin-bottom: 4px;
+}
+
+.portfolio-list .item {
+    border: 1px solid #EEEEEE;
+} 
+.portfolio-button-list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+}
+
+.portfolio-button-list .item:not(:last-child) {
+    margin-right: 8px;
+}
 
 .portfolio-list {
     display: flex;
@@ -396,9 +427,6 @@ margin-right: 51px;
     margin-bottom: 30px;
 }
 
-.portfolio-image {
-    display: block;
-}
 
 .portfolio-list .item:nth-child(3n) {
     margin-right: 0;
