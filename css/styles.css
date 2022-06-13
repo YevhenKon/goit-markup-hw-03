@@ -37,7 +37,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    max-width: 1600px;
 }
 
 .main-nav {
@@ -243,6 +242,11 @@ margin-right: 51px;
 
 /* features */
 
+.feature-section {
+    padding-top: 94px;
+    padding-bottom: 47px;
+}
+
 .feature-list {
     display: flex;
 }
@@ -294,6 +298,7 @@ margin-right: 51px;
 .team.section {
     background-color: var(--background-button-color);
     text-align: center;
+    padding-bottom: 94px;
 }
 
 .team-list.list {
@@ -333,6 +338,7 @@ margin-right: 51px;
 }
 
 /* fotter */
+
 .logo-footer {
     margin-bottom: 20px;
 }
@@ -383,14 +389,19 @@ margin-right: 51px;
     background-color: var(--background-color);
     margin-left: auto;
     margin-right: auto;
-    max-width: 1600px;
     padding: 60px 0;
 }
 
 /* portfolio list */
 
+.portfolio-section {
+    padding: 94px 0;
+}
+
 .portfolio-category {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .portfolio-category .title {
@@ -401,14 +412,10 @@ margin-right: 51px;
     display: none;
 }
 
-.portfolio-list .item {
-    border-bottom: 1px solid #EEEEEE;
-} 
 .portfolio-button-list {
     display: flex;
     justify-content: center;
-    padding-bottom: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 50px;
 }
 
 .portfolio-button-list .item:not(:last-child) {
